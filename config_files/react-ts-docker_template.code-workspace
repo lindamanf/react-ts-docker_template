@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"editor.formatOnSave": true,
+		"html.format.enable": false,
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true
+		},
+		"editor.renderWhitespace": "all",
+		"files.insertFinalNewline": true,
+		"editor.tabSize": 2,
+		"files.eol": "\n",
+		"files.encoding": "utf8",
+		"scss.validate": false,
+		"scss.scannerExclude": [
+			"**/.git",
+			"**/node_modules",
+		],
+		"typescript.preferences.importModuleSpecifier": "non-relative",
+		"eslint.validate": [
+			"typescript",
+			"typescriptreact",
+			"javascript",
+			"javascriptreact"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"clinyong.vscode-css-modules",
+			"mrmlnc.vscode-scss",
+			"dbaeumer.vscode-eslint"
+		]
+	}
+}

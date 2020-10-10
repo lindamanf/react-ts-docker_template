@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+  builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - USER=$USER
+        - DIR=$DIR
+    volumes:
+      - ${PWD}/config_files:${DIR}/config_files
+      - ${PWD}/src:${DIR}/src
+      - ${PWD}/original:${DIR}/original
+    ports:
+      - 8080:8080
+    tty: true
+    user: ${USER}
+    working_dir: ${DIR}
+    command: ./config_files/entrypoint.sh

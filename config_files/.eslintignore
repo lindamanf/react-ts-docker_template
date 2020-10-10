@@ -1,0 +1,5 @@
+node_modules/**/*
+dist/**/*
+production/**/*
+sample_template/**/*
+webpack.config.js

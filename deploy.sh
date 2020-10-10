@@ -1,0 +1,6 @@
+export USER=node
+export DIR=/home/${USER}/work
+
+docker-compose down -v
+# docker-compose build --no-cache
+docker-compose up -d
