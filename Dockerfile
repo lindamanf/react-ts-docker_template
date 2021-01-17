@@ -6,8 +6,6 @@ ARG DIR
 WORKDIR $DIR
 COPY ./config_files/package*.json $DIR/
 
-RUN npm install -g firebase-tools;
-
 RUN  npm ci \
   && rm ./package*.json \
   && chown -R ${USER}:${USER} .

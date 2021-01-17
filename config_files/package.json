@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --open",
     "build:dev": "webpack --mode development --watch",
-    "build:prod": "rimraf ./public && NODE_ENV=production webpack --mode production"
+    "build:prod": "rimraf ./dist && NODE_ENV=production webpack --mode production"
   },
   "license": "ISC",
   "dependencies": {
