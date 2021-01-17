@@ -33,7 +33,8 @@
 		"recommendations": [
 			"clinyong.vscode-css-modules",
 			"mrmlnc.vscode-scss",
-			"dbaeumer.vscode-eslint"
+			"dbaeumer.vscode-eslint",
+			"ms-vscode.vscode-typescript-tslint-plugin"
 		]
 	}
 }
